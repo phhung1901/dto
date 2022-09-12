@@ -2,5 +2,5 @@
 namespace interfaces;
 
 interface Arrayable{
-    public function toArray();
+    public function toArray($array);
 }

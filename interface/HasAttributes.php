@@ -10,21 +10,20 @@ trait HasAttributes{
     public function __get($key)
     {
         // TODO: Implement __get() method.
-        if (property_exists($this, $key)) {
-            return $this->$key;
-        } else {
-            throw  new \Exception("Property undefined");
-        }
+        return $this->$key;
     }
 
     public function __set($key, $value)
     {
         // TODO: Implement __set() method.
-        if (property_exists($this, $key)) {
+        return $this->$key = $value;
+    }
+
+    public function setAttribute(array $attributes = []){
+        foreach ($attributes as $key => $value){
             $this->$key = $value;
-        } else {
-            throw  new \Exception("Property undefined");
         }
+        return $this;
     }
 
 }
