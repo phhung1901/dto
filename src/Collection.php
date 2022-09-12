@@ -1,4 +1,6 @@
 <?php
+namespace src;
+
 class Collection implements CollectionInterface{
 
     private $elements;

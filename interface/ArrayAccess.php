@@ -1,4 +1,6 @@
 <?php
+namespace interfaces;
+
 interface ArrayAccess extends CollectionInterface{
     public function offsetUnset($offset);
 

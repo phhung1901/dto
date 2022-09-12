@@ -1,4 +1,6 @@
 <?php
+namespace interfaces;
+
 interface CollectionInterface extends Arrayable {
     public function isEmpty();
 

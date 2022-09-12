@@ -1,5 +1,12 @@
 <?php
-class Data implements Arrayable, Jsonable{
+namespace src;
+
+use interfaces\Arrayable;
+use interfaces\HasAttributes;
+use interfaces\Jsonable;
+
+class Data implements Arrayable , Jsonable {
+    use HasAttributes;
 
     public function toArray()
     {
@@ -9,5 +16,13 @@ class Data implements Arrayable, Jsonable{
     public function toJson($options)
     {
         // TODO: Implement toJson() method.
+    }
+
+    public function from(){
+
+    }
+
+    public function collection(){
+
     }
 }
