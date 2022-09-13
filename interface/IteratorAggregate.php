@@ -1,6 +1,6 @@
 <?php
 namespace interfaces;
 
-interface IteratorAggregate extends CollectionInterface{
+interface IteratorAggregate{
     public function getIterator();
 }

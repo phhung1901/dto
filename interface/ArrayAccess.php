@@ -1,7 +1,7 @@
 <?php
 namespace interfaces;
 
-interface ArrayAccess extends CollectionInterface{
+interface ArrayAccess{
     public function offsetUnset($offset);
 
     public function offsetGet($offset);

@@ -1,7 +1,7 @@
 <?php
 namespace interfaces;
 
-interface CollectionInterface extends Arrayable {
+interface CollectionInterface extends Arrayable, ArrayAccess, IteratorAggregate, Countable {
     public function isEmpty();
 
     public function filter($callback);
