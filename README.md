@@ -1,8 +1,8 @@
 # Simple Data To Object (DTO)
 
 Đề bài yêu cầu tạo DTO package 
-- [png_file]()
-- [doc_file]()
+- [png_file](https://drive.google.com/drive/u/0/folders/1iwA7oNz9jw1XTKS5IK_joTBIM7UW8LTS?lfhs=2)
+- [doc_file](https://docs.google.com/document/d/1UrV8g4zUOtdJGa4d3WaGHtst4uHkXRJN5ef-J5LjUW0/edit)
 
 #### Người thực hiện
 Thực hiện bởi: ***Phạm Huy Hưng***
